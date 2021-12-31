@@ -12,7 +12,7 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.browser)
         self.setGeometry(300, 300, 300, 220)
         self.setWindowTitle('Arrow Nap')
-        self.setWindowIcon(QIcon('nap.png')) 
+        self.setWindowIcon(QIcon('nap.ico')) 
         self.showMaximized()
 
 app = QApplication(sys.argv)
